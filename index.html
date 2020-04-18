@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+
+<head>
+
+	<title>donit | Integrated Cloud Applications and Platform Services</title>
+		
+	<link data-wscss href="style.css" rel="preload" as="style" onload="this.rel='stylesheet'" onerror="this.rel='stylesheet'">
+	<noscript>
+		<link href="style.css" rel="stylesheet">
+	</noscript>
+	<link data-wsjs data-reqjq href="script.js" rel="preload" as="script">
+	<style>
+  	#oReactiveChatContainer1 { display:none;}
+  	</style>
+	<script>
+		!function(){
+			var d=document.documentElement;d.className=d.className.replace(/no-js/,'js');
+			if(document.location.href.indexOf('betamode=') > -1) document.write('<script src="/asset/web/js/ocom-betamode.js"><\/script>');
+		}();
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script>!function(){function o(n,i){if(n&&i)for(var r in i)i.hasOwnProperty(r)&&(void 0===n[r]?n[r]=i[r]:n[r].constructor===Object&&i[r].constructor===Object?o(n[r],i[r]):n[r]=i[r])}try{var n=decodeURIComponent("");if(n.length>0&&window.JSON&&"function"==typeof window.JSON.parse){var i=JSON.parse(n);void 0!==window.BOOMR_config?o(window.BOOMR_config,i):window.BOOMR_config=i}}catch(r){window.console&&"function"==typeof window.console.error&&console.error("mPulse: Could not parse configuration",r)}}();</script>
+
+
+	<script data-wsjs src="jquery-min.js" async onload="$('head link[data-reqjq][rel=preload]').each(function(){var a = document.createElement('script');a.async=false;a.src=$(this).attr('href');this.parentNode.insertBefore(a, this);});$(function(){$('script[data-reqjq][data-src]').each(function(){this.async=true;this.src=$(this).data('src');});});"></script>
+  </head>
+	<body class="f20 f20v0 f20home" style="opacity:0">
+
+		<div class="f20w1">
+
+<section class="u28 u28v0 u28adj" id="u28" data-trackas="header">
+	<div class="u28w1">
+		<div class="cwidth">
+			<div class="u28s1">
+				<a class="u28home rw-logo" href="" tabindex=1>
+					<img src="img/Logo.png">
+				</a>
+				<!-- <a class="u28ham" href="" tabindex=2 data-trackas="menu" data-lbl="menu">Menu</a> -->
+				<a class="u28ham" href="" tabindex="0" data-trackas="menu" data-lbl="menu" aria-controls="u28navw1" aria-expanded="false" aria-haspopup="true">Menu</a>
+			</div>
+			<div class="u28s2">
+				<div class="u28w2">
+					<form name="askoracle" id="askoracle" class="askoracle" data-contentpaths="/content/Web/Shared/Auto-Suggest Panel Event" method="get" action="/search/results">
+						<input type="hidden" name="Nty" value="1">
+						<input type="hidden" name="Dy" value="1">
+						<input type="hidden" name="Ntk" value="SI-ALL5">
+						<input type="hidden" name="cty" value="us">
+						<input type="hidden" name="lang" value="en">
+						<div class="u28w3">
+							<div class="u28logo rw-logo"><span>donit</span></div>
+							<a class="u28-back rw-cv-left" href="#back">
+								<span>Back</span>
+							</a>
+							<a class="u28-searchicon" href="#search">
+								<span>Search</span>
+							</a>
+							<span class="u28input">
+								<input id="askoracleinput" name="Ntt" value="" data-prefix="Ask" placeholder="Ask" autocomplete="off" role="combobox" aria-label="Search Oracle.com" tabindex=3>
+								<span class="u28-microphone rw-microphone">
+									<span>Search by voice</span>
+								</span>
+								<span class="u28submit icn-search">
+									<input class="u28searchbttn" tabindex="0" type="submit" value="Submit Search">
+								</span>
+							</span>
+						</div>
+					</form>
+				</div>
+
+				<div class="u28-profile">
+					<a href="#" class="u28prof" tabindex=4><div class="acttxt">View Accounts</div><span>Sign In</span></a>
+					<div class="u28-profilew1">
+					<span class="u28actbck u28back">Back</span>
+						<span class="u28acttitle">donit ACCOUNT</span>
+						<ul class="u28l-out">
+							<li><a href="" class="u28btn1">Sign-In</a></li>
+							<li><a href="" data-lbl="profile:create-account" class="u28btn2">Create an Account</a></li>
+						</ul>
+						<ul class="u28l-in">
+							<li><a href="" data-lbl="help">Help</a></li>
+							<li><a href="javascript:sso_sign_out();" id="u28pfile-sout" data-lbl="signout">Sign Out</a></li>
+						</ul>
+						<div class="u28-profilew2">
+							<span class="u28acttitle">CLOUD ACCOUNT</span>
+							<a data-lbl="sign-in-to-cloud" href="" class="u28cloudbg">Sign in to Cloud</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="u28s3">
+				<a data-lbl="cloud-free-tier" href="" class="u28b1" tabindex=5>Try dolor sit amet Cloud Free Tier</a>
+			</div>
+		</div>
+	</div>
+	<div class="u28w4" id="u28w4">
+		<div class="u28w1a u28w5 clstrgt">
+			<div class="u28w6">
+
+				<!-- Search Results -->
+				<div class="u28w8 u28trgt"></div>
+				<div class="u28w9">
+					<div class="u28result u28noresults">
+						<div class="u28rw1">
+							<div class="u28rw2">
+								<h4>No results found</h4>
+								<p>Your search did not match any results.</p>
+								<p>We suggest you try the following to help find what you're looking for:</p>
+
+								<ul class="u28w7a">
+								<li>dolor sit amet</li>
+								<li>Use synonyms for the keyword you typed, for example, try &ldquo;application&rdquo; instead of &ldquo;software.&rdquo;</li>
+								<li>Tdolor sit amet</li>
+								<li>dolor sit amet</li>
+								</ul>
+								<p>&nbsp;</p>
+
+								<p><strong>Trending Questions</strong></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<nav id="u28nav" class="u28nav bgload " data-trackas="menu" aria-role="menu" tabindex="0">
+		<span class="mnavback u28back">Back</span>
+	<div class="u28navw1 cwidth">
+	
+	<ul>
+		<li><span class="mclose open"></span><h3><a href="" data-lbl="">Digital Business Services</a></h3>
+			<ul style="display: block;">
+
+				<li><a href="" data-lbl="autonomous-database">Cloud Platform</a></li>
+				<li><a href="" data-lbl="data-management">Consumer Experience</a></li>
+				<li><a href="" data-lbl="analytics">Social Commerce</a></li>
+	</ul>
+		</li>
+		
+		
+		<li><span class="mclose open"></span><h3><a href="" data-lbl="">Digital Security Services</a></h3>
+			<ul style="display: block;">
+				<li><a href="" data-lbl="oracle-database">Secure DevOps</a></li>
+				<li><a href="" data-lbl="java">Information Security </a></li>
+				<li><a href="" data-lbl="software">Continuous Diagnostics & Monitoring</a></li>
+			</ul>
+		</li>
+		<li><span class="mclose open"></span><h3><a href="" data-lbl="">Emerging Technologies</a></h3>
+			<ul style="display: block;">
+				<li><a href="" data-lbl="oracle-database">Artificial Intelligence</a></li>
+				<li><a href="" data-lbl="java">Internet of Things</a></li>
+				<li><a href="" data-lbl="software">Blockchain</a></li>
+				<li><a href="" data-lbl="software">Holographic Computing</a></li>
+			</ul>
+		</li>
+		
+	</ul>
+	
+	<ul>
+		<li><span class="mclose open"></span><h3><a href="" data-lbl="cloud-applications">Industry Solutions</a></h3>
+			<ul style="display: block;">
+
+				<li><a href="" data-lbl="financials">Identity as a Service</a></li>
+				<li><a href="" data-lbl="human-resources">Application Delivery Automation</a></li>
+				<li><a href="" data-lbl="supply-chain-management">Database & Data Integration</a></li>
+				<li><a href="" data-lbl="sales">Digital Personalization</a></li>
+				<li><a href="" data-lbl="service">Connected Intelligence</a></li>
+				<li><a href="" data-lbl="marketing">Public Sector</a></li>
+				<li><a href="" data-lbl="data-cloud">Media & Entertainment</a></li>
+			</ul>
+		</li>
+		<li><h3><a data-lbl="government-cloud" href="">Shop</a></h3></li>
+		
+		<li><h3><a href="" data-lbl="industry-applications">Contact</a></h3></li>
+		
+		
+		<li><h3><a href="/" data-lbl="on-premises-applications">PTG AMERICA is your trusted and most valued partner</a></h3></li>
+	</ul>
+	
+	
+	<ul>
+		<li><span class="mclose open"></span><h3><a href="" data-lbl="our-company">Company</a></h3>
+			<ul style="display: block;">
+				
+				<li><a href="" data-lbl="careers">Who We Are</a></li>
+				<li><a href="" data-lbl="customer-references">Work We Do</a></li>
+				<li><a href="" data-lbl="developer-center">For Investors</a></li>
+				<li><a href="" data-lbl="investor-relations">Partner Portal</a></li>
+				<li><a href="" data-lbl="oracle-partnernetwork-ocom">Careers</a></li>
+			</ul>
+		</li>
+
+		
+		<li><span class="mclose open"></span><h3 style="opacity: 0.6;">Resources</h3>
+			<ul style="display: block;">
+				<li><a href="" data-lbl="downloads">Digital Economy</a></li>
+				<li><a href="" data-lbl="downloads">Creative Industry</a></li>
+				<li><a href="" data-lbl="cloud-readiness">White Papers</a></li>
+				<li><a href="" data-lbl="documentation">Industry Reports</a></li>
+			</ul>
+		</li>
+		
+	
+	</ul>
+	
+	
+</div></nav>
+
+</section>
+
+<section class="rh02 rh02v0 pghero" data-trackas="rh02" data-ocomid="rh02" data-backlbl="Back">
+	<div class="rh02w1">
+
+		<div class="rh02panel rh02p1" data-trackas="panel1:infra">
+			<div class="rh02w2 darktheme">
+				<div class="rh02w3">
+
+					<button class="rh02-pcontent">
+						<h2 class="rh02-ttl">dolor sit amet<b>dolor sit amet</b></h2>
+						<div class="rh02-sub">dolor sit amet</div>
+						<div class="rh02-leadin">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. .</p>
+						</div>
+					</button>
+
+					<div class="rh02w4">
+						<div class="rh02-cta">
+							<div class="obttns">
+								<div><a href="" data-lbl="cta-0912:button:cloud-infracturure">dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</a></div>
+								<div class="obttn1"><a href="" data-lbl="cta-112219-cloud-sign-in">Sign in to Cloud</a></div>
+								
+							</div>
+
+						</div>
+
+						<div class="rh02-xcontent">
+							
+							<div class="rh02head"><h5>Featured</h5></div>
+							
+							<div class="rh02link">
+								<h3>Announcement</h3>
+								<a href="">Odolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</a>
+								<p style="font-color:white;">dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+							</div>
+							
+							<div class="rh02link">
+								<h3>dolor sit amet</h3>
+								<a href="">dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</a>
+								<p style="font-color:white;">dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+							</div>
+							
+							<div class="rh02link">
+								<h3>DATA MANAGEMENT</h3>
+								<a href="">dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</a>
+								<p style="font-color:white;">dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+							</div>
+							
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		
+		<div class="rh02panel rh02p2" data-trackas="panel2:apps">
+			<div class="rh02w2 darktheme">
+				<div class="rh02w3">
+
+					<button class="rh02-pcontent">
+						<h2 class="rh02-ttl">dolor sit amet <b>dolor sit amet</b></h2>
+						<div class="rh02-sub">dolor sit amet</div>
+						<div class="rh02-leadin">
+							<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+						</div>
+					</button>
+
+					<div class="rh02w4">
+						<div class="rh02-cta">
+							<div class="obttns">
+								<div><a href="" data-lbl="cta-0912:button:cloud-applications">dolor sit amet</a></div>
+							</div>
+						</div>
+
+						<div class="rh02-xcontent">
+							
+							<div class="rh02head"><h5>Featured</h5></div>
+							
+							<div class="rh02link">
+								<h3>ANALYST REPORT</h3>
+								<a href="">dolor sit amet, consectetuer adipiscing elit.</a>
+								<p>dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
+							</div>
+							
+							<div class="rh02link">
+								<h3>CUSTOMER SUCCESS</h3>
+								<a href="">CIO Viewpoint: Why Healthcare Technology Needs to Just Work</a>
+								<p>dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
+							</div>
+							
+							
+							<div class="rh02link">
+								<h3>LIVE EVENT</h3>
+								<a href="">Register Now for Modern Business Experience 2020</a>
+								<p>dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							</div>
+							
+							
+							
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+
+		<div class="rh02panel rh02p3 rh02carousel rh02random" data-auto="5" data-trackas="panel3:about">
+			
+			<div class="rh02w2 darktheme" data-bgimg="img/rh02-erp-overlay.jpg" data-bgimg2x="img/rh02-erp-overlay-2x.jpg">
+				<div class="rh02w3">
+
+					<div class="rh02-pcontent">
+						<h2 class="rh02-ttl">dolor sit amet, consectetuer adipiscing elit.</h2>
+						<div class="rh02-leadin">
+							<p>dolor sit amet, consectetuer adipiscing elit. </p>
+							<ul class="obullets">
+							<li>dolor sit amet, consectetuer adipiscing elit.</li>
+							<li>dolor sit amet, consectetuer adipiscing elit.</li>
+							<li>dolor sit amet, consectetuer adipiscing elit.</li>
+							</ul>
+						</div>
+						<div class="rh02-cta">
+							<div class="obttns">
+								<div><a href="">Download the guide</a></div>
+								<div class="obttn1"><a href="" data-lbl="cta-0225-panel3-slide1-button2-modern-erp-o-page-overview-apps">dolor sit amet ERP Cloud overview</a></div>
+														
+							</div>
+							
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			
+			<div class="rh02w2 darktheme" data-bgimg="img/rh02-western-digital-cloud1.jpg" data-bgimg2x="img/rh02-western-digital-cloud-2x.jpg">
+				<div class="rh02w3">
+
+					<div class="rh02-pcontent">
+						<h2 class="rh02-ttl">dolor sit amet, consectetuer adipiscing elit.</h2>
+						<div class="rh02-leadin">
+							<p>dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+						</div>
+						<div class="rh02-cta">
+							<div class="obttns">
+								<div><a href="" rel="vbox" data-lbl="cta-0228-panel3-slide2-button1-cust-westdig-apps">Watch the video (1:34)</a></div>
+								<div class="obttn1"><a href="/applications/" data-lbl="cta-0228-panel3-slide2-button2-cust-westdig-page-apps">dolor sit amet</a></div>
+							</div>
+							
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			
+			<div class="rh02w2 darktheme" data-bgimg="img/rh02-ytt-fy20-c2-tile2.jpg" data-bgimg2x="img/rh02-ytt-fy20-c2-tile2-2x.jpg">
+				<div class="rh02w3">
+
+					<div class="rh02-pcontent">
+						<h2 class="rh02-ttl">dolor sit amet, consectetuer adipiscing elit. </h2>
+						<div class="rh02-leadin">
+							<p>dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+						</div>
+						<div class="rh02-cta">
+							<div class="obttns">
+								<div><a href="">dolor sit amet, consectetuer adipiscing elit. </a></div>
+								<div class="obttn1"><a href="" data-lbl="cta-030220-panel3-slide3-button2-gartner-analyt-orprods-page">dolor sit amet, consectetuer adipiscing elit. </a></div>
+
+							</div>
+							
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			
+			
+			
+			<div class="rh02w2 darktheme" data-bgimg="img/rh02-about-no-overlay.jpg" data-bgimg2x="img/rh02-about-no-overlay-2x.jpg"> 
+		 		<div class="rh02w3"> 
+
+
+			 		<div class="rh02-pcontent"> 
+				 		<h2 class="rh02-ttl">About <b class="ologo">dolor sit amet</b></h2> 
+				 		<div class="rh02-sub">dolor sit amet</div> 
+				 		<div class="rh02-leadin"> 
+					 		<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero.</p> 
+				 		</div> 
+				 		<div class="rh02-cta"> 
+					 		<div class="obttns"> 
+						 		<div><a href="" data-lbl="cta-010320-panel3-slide4-about-mission">Our mission</a></div> 
+					 		</div> 
+				 		</div> 
+			 		</div> 
+		 		</div> 
+	 		</div>
+			
+			<div class="rh02w2 darktheme" data-bgimg="img/rh02-openworld-reg1.jpg" data-bgimg2x="img/rh02-openworld-reg-2x.jpg"> 
+		 		<div class="rh02w3"> 
+
+
+					<div class="rh02-pcontent">
+						<h2 class="rh02-ttl">dolor sit amet</h2>  
+				 		<div class="rh02-leadin"> 
+					 		<p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.</p> 
+				 		</div> 
+				 		<div class="rh02-cta"> 
+					 		<div class="obttns"> 
+						 		<div><a href="">Sign up to be notified</a></div> 
+					 		</div> 
+				 		</div> 
+			 		</div> 
+		 		</div> 
+	 		</div>
+		
+
+
+		</div>
+	</div>
+</section>
+
+<div id="u10" class="u10 u10v6" data-trackas="ffooter" data-ocomid="u10">
+	<div class="u10w1">
+		
+<div class="u10w2">
+<div class="u10w3">
+<h5>Work We Do</h5>
+<ul>
+<li><a data-lbl="resources-for:developers" href="">Digital Business Services</a></li>
+<li><a data-lbl="resources-for:startups" href="">Digital Security Services</a></li>
+</ul>
+</div>
+</div>
+
+<div class="u10w2">
+<div class="u10w3">
+<h5>Emerging Technologies</h5>
+<ul>
+<li><a data-lbl="partners:oracle-partnernetwork-ocom" href="">Artificial Intelligence</a></li>
+<li><a data-lbl="partners:find-a-partner" href="">Internet of Things</a></li>
+<li><a data-lbl="partners:login-opn" href="">Blockchain</a></li>
+<li><a data-lbl="partners:login-opn" href="">Holographic Computing</a></li>
+</ul>
+</div>
+</div>	
+
+<div class="u10w2">
+<div class="u10w3">
+<h5>Resources</h5>
+<ul>
+<li><a data-lbl="emerging-technlogy:artificial-intelligence" href="">What We Think</a></li>
+<li><a data-lbl="emerging-technlogy:blockchain" href="">Podcasts</a></li>
+<li><a data-lbl="emerging-technlogy:solutions" href="">Video Series</a></li>
+</ul>
+</div>
+</div>
+<div class="u10w2">
+<div class="u10w3">
+<h5>Stay Connected</h5>
+<ul>
+<li><a href="tel:18006330738">Tel: +1 202 823 9927</a></li>
+<li><a data-lbl="contact-us:global-contacts" href="">Soc: @ptgamerica</a></li>
+<li><a data-lbl="contact-us:subscribe-to-emails" href="">Subscribe to emails</a></li>
+</ul>
+</div>
+</div>
+
+<div class="u10w4">
+<hr />
+</div>
+<div class="u10w5" data-trackas="footer">
+<!-- <ul class="scl-icons">
+<li class="scl-facebook"><a data-lbl="scl-icon:facebook" href="" title="Oracle on Facebook">Facebook</a></li>
+<li class="scl-twitter"><a data-lbl="scl-icon:twitter" href="" title="Follow Oracle on Twitter">Twitter</a></li>
+<li class="scl-linkedin"><a data-lbl="scl-icon:linkedin" href="" title="Oracle on LinkedIn">LinkedIn</a></li>
+<li class="scl-youtube"><a data-lbl="scl-icon:you-tube" href="" title="Watch Oracle on YouTube">YouTube</a></li>
+</ul> -->
+
+<div class="u10-ologo"><a data-lbl="integrated-cloud-applications-and-platform-services" href="/">donit</a></div>
+<h3>Integrated Cloud Applications &amp; Platform Services</h3>
+
+<ul class="u10-links" >
+<li><a data-lbl="copyright" href="">&copy; 2020  PTG AMERICA</a></li>
+<li><a data-lbl="site-map" href="">Site Map</a></li>
+<li><a data-lbl="privacy" href="">Privacy and Cookies</a></li>
+<!-- <li class="u10mtool" id="u10cmenu"><a data-lbl="country-region" class="u10ticon u10regn" href="">Country/Region</a></li> -->
+<li><div id="teconsent"></div></li>
+<li class="scl-facebook"><a data-lbl="scl-icon:facebook" href="" title="Oracle on Facebook">Facebook</a></li>
+<li class="scl-twitter"><a data-lbl="scl-icon:twitter" href="" title="Follow Oracle on Twitter">Twitter</a></li>
+<li class="scl-linkedin"><a data-lbl="scl-icon:linkedin" href="" title="Oracle on LinkedIn">LinkedIn</a></li>
+<li class="scl-youtube"><a data-lbl="scl-icon:you-tube" href="" title="Watch Oracle on YouTube">YouTube</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+
+	</div>
+	</body>
+	
+</html>
